@@ -9,8 +9,8 @@ include(hunter_pick_scheme)
 hunter_add_version(
     PACKAGE_NAME libevhtp
     VERSION "1.2.16-p4"
-    URL "https://github.com/hunter-packages/libevhtp/archive/v1.2.16-p4.tar.gz"
-    SHA1 "c6d7b4b4e27de15670f72e36b127613a707164ee")
+    URL " https://github.com/criticalstack/libevhtp/archive/develop.tar.gz"
+    SHA1 "89a9737a89e37d2cd508de61427f96905b261935")
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(libevhtp)
