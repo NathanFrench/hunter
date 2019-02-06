@@ -8,7 +8,7 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME libevhtp
-    VERSION "1.2.16-p4"
+    VERSION "develop"
     URL " https://github.com/criticalstack/libevhtp/archive/develop.tar.gz"
     SHA1 "89a9737a89e37d2cd508de61427f96905b261935")
 
